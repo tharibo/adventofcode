@@ -5,5 +5,5 @@
                  [org.clojure/tools.reader "1.0.0-alpha2"]
                  [org.clojure/math.combinatorics "0.1.1"]
                  ]
-  :plugins [[cider/cider-nrepl "0.10.0"]
+  :plugins [[cider/cider-nrepl "0.11.0-SNAPSHOT"]
             ])
