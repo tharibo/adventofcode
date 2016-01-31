@@ -45,7 +45,6 @@
                value (- nb-resources total-right)]
            (cons value right))))))
 
-
 (defn all-cardinalities [size nb-resources]
   (loop [coll (concat (take (dec size) (repeat 1)) [(- nb-resources (dec size))])
          cardinalities []]
